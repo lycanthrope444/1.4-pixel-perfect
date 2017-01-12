@@ -177,9 +177,24 @@ h5 {
 }
 
 .article-links{
-  display: inline-block;
+  display: inline;
+  height: 30px;
 }
 
+.readcomments{
+  width: 155px;
+
+}
+
+.readlater{
+  width: 125px;
+
+}
+
+.sharestory{
+  width: 151px;
+
+}
 /* column2 info */
 .column-2{
   display: inline-block;
@@ -204,14 +219,22 @@ h3{
   font-size: 30px;
 }
 
+.bottombar{
+  position: relative;
+  display: inline;
+  height: 97px;
+  width: 100%;
+  background-color: #093450;
+}
+
 .copyright{
+  position: relative;
   display: inline-block;
-  float:left;
   font-size: 12px;
 }
 
 .navbottom{
   display: inline-block;
-  float: right;
+  position: relative;
   font-size: 12px;
 }
