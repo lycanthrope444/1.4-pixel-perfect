@@ -6,8 +6,12 @@ body{
   /* font-size: 0; Fixes Spacing*/
 }
 
-h1, h2, h3{
+h1, h2, h3, h5{
   font-family: 'Oswald', sans-serif;
+}
+
+img {
+  max-width: 100%
 }
 
  /*
@@ -23,6 +27,7 @@ header{
   background: #FFF url('https://unsplash.it/1300/523') no-repeat;
   background-size: cover;
   height: 523px;
+  margin-bottom: 68px;
 }
 
 header::before{
@@ -151,10 +156,62 @@ header h4 {
   letter-spacing: -1px;
 }
 
+/* column-1 info */
 .column-1{
+  display: inline-block;
+  width: 47%;
+  margin-left: 12%;
+  margin-right: 3%;
+}
+
+h5 {
+  font-size: 26px;
+}
+
+.pull-quote{
+  padding: 4px;
+  border-left: 2px solid #D3D3D3;
+}
+.pull-quote span{
+  color: #146EAE;
+}
+
+.article-links{
   display: inline-block;
 }
 
+/* column2 info */
 .column-2{
   display: inline-block;
+  width: 21%;
+  margin-right: 12%;
+  margin-left: 4%;
+}
+
+
+
+/* Footer Section */
+footer{
+  position: relative;
+  margin-top: 68px;
+  padding-top: 40px;
+  border-top: 1px solid #E1E7EA;
+  font-size: 0; /*for picture space #delete*/
+}
+
+h3{
+  text-align: center;
+  font-size: 30px;
+}
+
+.copyright{
+  display: inline-block;
+  float:left;
+  font-size: 12px;
+}
+
+.navbottom{
+  display: inline-block;
+  float: right;
+  font-size: 12px;
 }
