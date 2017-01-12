@@ -150,3 +150,11 @@ header h4 {
   font-size: 15px;
   letter-spacing: -1px;
 }
+
+.column-1{
+  display: inline-block;
+}
+
+.column-2{
+  display: inline-block;
+}
