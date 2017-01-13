@@ -221,19 +221,29 @@ p > a:visited {
 .article-links div{
   font-size: 16px;
   display: inline-block;
-  border: 1px solid black;
   margin: 5px;
+  color: #FFF;
+  padding: 10px 14px 10px 14px;
 }
+/*
+.article-links > div > i{
+  padding:10px;
+  background-color: #5E686E;
+}
+*/
 .readcomments{
   width: 155px;
+  background-color: #A3B3BE;
 }
 
 .readlater{
   width: 125px;
+  background-color: #A3B3BE;
 }
 
 .sharestory{
   width: 151px;
+  background-color: #146EAE;
 }
 /* column2 info */
 .column-2{
