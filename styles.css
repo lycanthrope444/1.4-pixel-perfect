@@ -246,6 +246,7 @@ p > a:visited {
   display: block;
   border-radius: 42px;
   overflow: hidden;
+  margin-left: 33%;
 }
 
 .authorname{
@@ -255,11 +256,32 @@ p > a:visited {
 }
 
 .sociallinks{
-  display: inline;
+  width: 100%;
+  display: inline-block;
   text-align: center;
   color: #ADBCC5;
+  padding: 0;
 }
 
+.sociallinks > a{
+  color: #A3B3BE;
+  text-decoration: none;
+}
+
+.ad-info{
+  color: #A3B3BE;
+  text-align: right;
+}
+
+h6 {
+  text-align: left;
+  font-size: 30px;
+  margin: 0px;
+}
+
+.column-2 > p{
+  text-align: left;
+}
 /* Footer Section */
 footer{
   position: relative;
@@ -270,12 +292,17 @@ footer{
 }
 
 footer > a{
+  color:#093450;
   text-decoration: none;
   font-size: 30px;
   display: inline-block;
   height: 330px;
   width: 25%;
   background: url('https://unsplash.it/325/330');
+}
+
+footer > a:hover{
+  color: #FFF;
 }
 
 h3{
