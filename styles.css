@@ -168,39 +168,71 @@ header h4 {
   width: 47%;
   margin-left: 12%;
   margin-right: 3%;
+  color: #5E686E;
 }
 
 h5 {
   font-size: 50px;
   margin: 0;
+  color: #093450;
+}
+
+.authortiny{
+  height: 22px;
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.byline a{
+  text-decoration: none;
+  color: #0057A6;
+}
+
+.timestamp{
+  text-decoration: underline;
 }
 
 .pull-quote{
   padding: 4px;
   border-left: 2px solid #D3D3D3;
+  font-size: larger;
 }
 .pull-quote span{
   color: #146EAE;
 }
-
-.article-links{
-  display: inline;
-  height: 30px;
+/* http://www.w3schools.com/css/css_link.asp */
+p > a:link {
+  color: #146EAE;
 }
 
+p > a:visited {
+  color: #A3B3BE;
+}
+
+.article-links{
+  display: inline-block;
+  height: 30px;
+  width:100%;
+  background-color: red;
+  font-size: 0;
+}
+
+.article-links div{
+  font-size: 16px;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 5px;
+}
 .readcomments{
   width: 155px;
-
 }
 
 .readlater{
   width: 125px;
-
 }
 
 .sharestory{
   width: 151px;
-
 }
 /* column2 info */
 .column-2{
@@ -219,11 +251,13 @@ h5 {
 .authorname{
   display: block;
   text-align: center;
+  color: #0057A6;
 }
 
 .sociallinks{
   display: inline;
   text-align: center;
+  color: #ADBCC5;
 }
 
 /* Footer Section */
