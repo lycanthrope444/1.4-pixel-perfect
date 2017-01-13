@@ -269,11 +269,21 @@ footer{
   font-size: 0; /*for picture space #delete*/
 }
 
+footer > a{
+  text-decoration: none;
+  font-size: 30px;
+  display: inline-block;
+  height: 330px;
+  width: 25%;
+  background: url('https://unsplash.it/325/330');
+}
+
 h3{
   text-align: center;
   font-size: 30px;
 }
 
+/* Blue box
 footer::before{
   content: '';
   display: block;
@@ -284,11 +294,12 @@ footer::before{
   right: 0;
   background-color: rgba(28, 107, 174, 0.5);
   max-width: 1300px;
-}
+}*/
 
 
 
 /*bottombar info */
+
 .bottombar{
   position: relative;
   display: inline-block;
