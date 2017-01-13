@@ -93,6 +93,12 @@ nav::after {
   vertical-align: middle;
 }
 
+.Sp-logo {
+  overflow: hidden;
+  border-radius: 22.5px;
+  border: 1px solid transparent;
+}
+
 .header-links {
   float: right;
   list-style: none;
@@ -165,7 +171,8 @@ header h4 {
 }
 
 h5 {
-  font-size: 26px;
+  font-size: 50px;
+  margin: 0;
 }
 
 .pull-quote{
@@ -237,11 +244,12 @@ footer::before{
   content: '';
   display: block;
   position: absolute;
-  top: 0;
+  top: 100px;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: rgba(28, 107, 174, 0.5);
+  max-width: 1300px;
 }
 
 
@@ -260,6 +268,10 @@ footer::before{
   position: relative;
   display: inline-block;
   font-size: 12px;
+}
+
+.articlelink:hover{
+  z-index: 100;
 }
 
 .navbottom{
