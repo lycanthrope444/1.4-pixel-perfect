@@ -372,8 +372,19 @@ footer::before{
   position: relative;
   display: inline-block;
   font-size: 12px;
+  bottom: 9px;
+}
+
+.copyright > img{
+  position: relative;
+  top: 13px;
+}
+
+.article-other{
+  position: absolute;
 }
 /*
+
 .articlelink:hover{
   z-index: 100;
 }
@@ -391,8 +402,4 @@ footer::before{
   border-right: 1px solid #5E686E;
   padding-right: 8px;
   padding-left: 3px;
-}
-
-.navlast {
-  border-right: 0px;
 }
