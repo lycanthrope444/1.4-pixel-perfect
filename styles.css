@@ -175,6 +175,7 @@ h5 {
   font-size: 50px;
   margin: 0;
   color: #093450;
+  display: inline-block;
 }
 
 .authortiny{
@@ -271,17 +272,21 @@ p > a:visited {
 .ad-info{
   color: #A3B3BE;
   text-align: right;
+  margin-left: 50%;
+  margin-right: 0;
 }
 
 h6 {
+  color: #146EAE;
   text-align: left;
   font-size: 30px;
   margin: 0px;
 }
 
-.column-2 > p{
+.sidebar{
   text-align: left;
 }
+
 /* Footer Section */
 footer{
   position: relative;
@@ -310,7 +315,7 @@ h3{
   font-size: 30px;
 }
 
-/* Blue box
+/*
 footer::before{
   content: '';
   display: block;
@@ -321,8 +326,8 @@ footer::before{
   right: 0;
   background-color: rgba(28, 107, 174, 0.5);
   max-width: 1300px;
-}*/
-
+}
+*/
 
 
 /*bottombar info */
@@ -337,6 +342,7 @@ footer::before{
 }
 
 .copyright{
+  color: #A3B3BE;
   position: relative;
   display: inline-block;
   font-size: 12px;
@@ -351,4 +357,9 @@ footer::before{
   position: relative;
   float: right;
   font-size: 12px;
+}
+
+.navbottom > a{
+  color: #A3B3BE;
+  text-decoration: none;
 }
