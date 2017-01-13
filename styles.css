@@ -245,8 +245,11 @@ p > a:visited {
   width: 151px;
   background-color: #146EAE;
 }
-/* column2 info */
+
+/******* column2 info ********/
+
 .column-2{
+  position: absolute;
   display: inline-block;
   width: 21%;
   margin-right: 12%;
@@ -314,6 +317,8 @@ footer > a{
   height: 330px;
   width: 25%;
   background: url('https://unsplash.it/325/330');
+  background-size: cover;
+
 }
 
 footer > a:hover{
