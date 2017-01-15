@@ -214,20 +214,36 @@ p > a:visited {
 }
 
 .article-links{
-  text-decoration: none;
+  position: relative;
   display: inline-block;
-  height: 30px;
+  height: 40px;
   width:100%;
   font-size: 0;
 }
 
-.article-links div{
+.article-links > div{
   font-size: 16px;
   display: inline-block;
   margin: 5px;
   color: #FFF;
-  padding: 10px 14px 10px 14px;
+
+  /*padding: 10px 14px 10px 14px; */
 }
+
+.article-links div a{
+  text-decoration: none;
+  color: #FFF;
+  font-size: 12px;
+}
+
+a > i{
+  width: 33px;
+  height: 30px;
+  padding: 0px;
+  background-color: #5E686E;
+}
+
+
 /*
 .article-links > div > i{
   padding:10px;
@@ -246,8 +262,14 @@ p > a:visited {
 
 .sharestory{
   width: 151px;
-  background-color: #146EAE;
+  background-color: #A3B3BE;
 }
+
+/*{
+  background color: #146EAE;
+}
+
+/* #146EAE - color for hover */
 
 /******* column2 info ********/
 
@@ -289,11 +311,19 @@ p > a:visited {
   text-decoration: none;
 }
 
+.advertisement > img{
+  width: 100%;
+}
+
 .ad-info{
   color: #A3B3BE;
-  text-align: right;
-  margin-left: 50%;
-  margin-right: 0;
+  float: right;
+}
+
+.ad-info::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 h6 {
@@ -301,7 +331,8 @@ h6 {
   color: #146EAE;
   text-align: left;
   font-size: 30px;
-  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .sidebar{
@@ -352,7 +383,7 @@ h3{
   left: 0;
   right: 0;
   background-color: rgba(28, 107, 174, 0.3);
-  max-width: 325px;
+  max-width: 25%;
 }
 
 .articlelink2::after{
@@ -361,10 +392,10 @@ h3{
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 325px;
+  left: 25%;
   right: 0;
   background-color: rgba(28, 107, 174, 0.3);
-  max-width: 325px;
+  max-width: 25%;
 }
 
 .articlelink3::after{
@@ -373,10 +404,10 @@ h3{
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 650px;
+  left: 50%;
   right: 0;
   background-color: rgba(28, 107, 174, 0.3);
-  max-width: 325px;
+  max-width: 25%;
 }
 
 .articlelink4::after{
@@ -385,10 +416,10 @@ h3{
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 975px;
+  left: 75%;
   right: 0;
   background-color: rgba(28, 107, 174, 0.3);
-  max-width: 325px;
+  max-width: 25%;
 }
 /*.articlelink1::after{
   content: '';
@@ -446,6 +477,9 @@ h3{
 
 .article-other{
   position: absolute;
+  padding-top: 300px;
+  padding-right: 150px;
+
 }
 /*
 
