@@ -281,12 +281,34 @@ a > i{
   margin-left: 4%;
 }
 
+.photoholder{
+  position: relative;
+
+}
 .author-photo{
+  position: relative;
   display: block;
   border-radius: 42px;
   overflow: hidden;
   margin-left: 33%;
   margin-bottom: 15px;
+}
+
+.photoholder::after{
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 33%;
+  right: 0;
+  background-color: rgba(28, 107, 174, 0.3);
+  border-radius: 42px;
+  max-width: 84px;
+}
+
+.photoholder:hover::after{
+  display: none;
 }
 
 .authorname{
@@ -311,8 +333,28 @@ a > i{
   text-decoration: none;
 }
 
+.adholder{
+  position: relative;
+  max-height: 300px;
+}
+
 .advertisement > img{
-  width: 100%;
+}
+
+.adholder::after{
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(28, 107, 174, 0.3);
+  max-height: 300px;
+}
+
+.adholder:hover::after{
+  display: none;
 }
 
 .ad-info{
