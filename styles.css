@@ -343,7 +343,7 @@ h6 {
 footer{
   position: relative;
   margin-top: 68px;
-  padding-top: 40px;
+  padding-top: 23px;
   border-top: 1px solid #E1E7EA;
   font-size: 0; /*for picture space #delete*/
 }
@@ -360,20 +360,34 @@ footer{
 
 }
 
-.article-other:hover{
-  color: #FFF;
-}
-
 h3{
   text-transform: uppercase;
   text-align: center;
-  font-size: 30px;
+  font-size: 60px;
+  margin-top: 0px;
+  margin-bottom: 41px;
+}
+
+.article-other{
+  font-family: 'Oswald';
+  position: absolute;
+  bottom: 0px;
+  min-width: 23.6%;
+  max-width: 23.6%;
+  text-transform: uppercase;
+  padding-left: 17px;
+  padding-bottom: 11px;
+  padding-top: 285px;
+}
+
+.article-other:hover{
+  color: #FFF;
 }
 
 .pastlinks{
   position: relative;
 }
-
+/* - to work on bottom titles*/
 .articlelink1::after{
   content: '';
   display: inline-block;
@@ -421,16 +435,7 @@ h3{
   background-color: rgba(28, 107, 174, 0.3);
   max-width: 25%;
 }
-/*.articlelink1::after{
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(28, 107, 174, 0.3);
-} */
+
 
 .articlelink1:hover::after{
   display: none;
@@ -452,11 +457,11 @@ h3{
 .bottombar{
   position: relative;
   display: inline-block;
-  height: 97px;
+  max-height: 97px;
+  min-height: 97px;
   width: 100%;
   max-width: 988px;
   background-color: #093450;
-  padding-top: 41px;
   padding-left: 12%;
   padding-right: 12%;
   margin: 0px;
@@ -466,33 +471,26 @@ h3{
   color: #A3B3BE;
   position: relative;
   display: inline-block;
-  font-size: 12px;
+  font-size: 13px;
   bottom: 9px;
+  margin-top: 26px;
 }
 
 .copyright > img{
   position: relative;
   top: 13px;
+  margin-right: 10px;
 }
 
-.article-other{
-  position: absolute;
-  padding-top: 300px;
-  padding-right: 150px;
 
-}
-/*
 
-.articlelink:hover{
-  z-index: 100;
-}
-*/
 .navbottom{
   float: right;
   display: inline-block;
   position: relative;
-  font-size: 12px;
+  font-size: 13px;
   top: 15px;
+  margin-top: 26px;
 }
 
 .navbottom > a{
@@ -501,4 +499,8 @@ h3{
   border-right: 1px solid #5E686E;
   padding-right: 8px;
   padding-left: 3px;
+}
+
+.navbottom > .navlast{
+  border-right: 0px;
 }
