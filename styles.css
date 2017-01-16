@@ -278,6 +278,22 @@ p > a:visited {
   max-height: 30px;
 }
 
+.readcomments:hover{
+  background-color: #146EAE;
+}
+
+.readlater:hover{
+  background-color: #146EAE;
+}
+
+.sharestory:hover{
+  background-color: #146EAE;
+}
+
+.linkicon:hover {
+  background-color: #093450;
+}
+
 .readcomments > a{
   position: relative;
 }
@@ -445,8 +461,8 @@ h6 {
 /* Footer Section */
 footer{
   position: relative;
-  margin-top: 68px;
-  padding-top: 23px;
+  margin-top: 63px;
+  padding-top: 36px;
   border-top: 1px solid #E1E7EA;
   font-size: 0; /*for picture space #delete*/
 }
@@ -469,6 +485,8 @@ h3{
   font-size: 60px;
   margin-top: 0px;
   margin-bottom: 41px;
+  color: #093450;
+  letter-spacing: 1.5px;
 }
 
 .article-other{
