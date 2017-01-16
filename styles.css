@@ -198,6 +198,8 @@ p{
 .byline {
   margin-bottom: 33px;
   margin-left: 10.5px;
+  color: #BAC6CE;
+  font-size: 12.5px;
 }
 
 .byline a{
@@ -205,20 +207,26 @@ p{
   color: #4785B8;
   font-size: 12px;
   margin-left: 5px;
+  margin-right: 15px;
 }
 
 .timestamp{
   text-decoration: underline;
+  font-size: 13.5px;
 }
 
 .pull-quote{
   padding: 4px;
   border-left: 2px solid #D3D3D3;
   font-size: larger;
+  margin-top: 30px;
+  margin-left: 13px;
+  padding-bottom: 9px;
+  padding-top: 16px;
 }
 .pull-quote span{
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 27px;
   color: #146EAE;
 }
 /* http://www.w3schools.com/css/css_link.asp */
